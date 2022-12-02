@@ -17,7 +17,6 @@ for i in list2:
         y = "0."
         y = y+x[1]
         list3.append(float(y))
-print(list3)
 
 Max = list3[0]
 min = list3[0]
@@ -25,9 +24,9 @@ min = list3[0]
 for i in list3:
     if (i > Max):
         Max = i
-print(Max)
+print(f'Максимальная дробная часть= {Max}')
 for i in list3:
     if (i < min):
         min = i
-print(min)
-print(Max-min)
+print(f'Минимальная дробная часть= {min}')
+print(f'Max-Min = {Max-min}')
