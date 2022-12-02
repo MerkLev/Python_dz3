@@ -16,5 +16,5 @@ else:
 for i in range(0, b):
     x = list[i] * (list[-i-1])
     temp.append(x)
-print(temp)
+print(f'произведение пар чисел = {temp}')
 

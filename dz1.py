@@ -8,4 +8,4 @@ sum = 0
 for i in range(0, len(list)):
     if (i % 2 != 0):
         sum += list[i]
-print(sum)
+print(f'Сумма нечетных элементов = {sum}')
